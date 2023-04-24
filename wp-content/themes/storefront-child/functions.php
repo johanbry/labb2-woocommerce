@@ -2,7 +2,7 @@
 
 function jb_add_text_to_sort_order()
 {
-    echo '<span>' . 'Sort: ' . '</span>';
+    echo '<span>' . __('Sortera efter: ', 'woocommerce') . '</span>';
 }
 
 function jb_change_sorting_block_products_list()
