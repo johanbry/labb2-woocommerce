@@ -4,3 +4,8 @@ Template: storefront
 Author: Johan Brynielsson
 
 */
+
+body.woocommerce #primary {
+  float: none;
+  width: 100%;
+}
